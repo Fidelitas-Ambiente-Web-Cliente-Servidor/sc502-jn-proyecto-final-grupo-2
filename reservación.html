@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reserva en el Hotel Resort Aurora </title>
-    
+    <link rel="stylesheet" href="Reservacion.css">
     
 </head>
 
@@ -26,7 +26,7 @@
 
 <p>Complete el formulario para realizar una reserva.</p>
 
-    <form action="#" method="post">
+    <form action="#" method="post" onsubmit="return validarFormulario()" >
       <fieldset>
         <legend>Datos de la reserva</legend>
 
@@ -96,7 +96,7 @@
         <h2 class="grupo2">Un Lugar Magico</h2>
         <p>¡Con la mejor calidad!</p>
     </footer>
-    
+    <script src="js/validarTelefono.js"></script>
 </body>
 
 </html>
